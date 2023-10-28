@@ -25,7 +25,7 @@ const Header = ({ children }) => {
             </HomeButton>
           </HomeLink>
         </HomeButtonContainer>
-        {children}
+        <CertificationText>Apollo Graph Developer - Associate Certification</CertificationText>
       </Container>
     </HeaderBar>
   );
@@ -38,7 +38,7 @@ const HeaderBar = styled.div({
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
-  justifyContent: 'center',
+  justifyContent: 'space-between',
   borderBottom: `solid 1px ${colors.pink.light}`,
   boxShadow: '0px 1px 5px 0px rgba(0,0,0,0.15)',
   padding: '5px 30px',
@@ -47,7 +47,10 @@ const HeaderBar = styled.div({
 });
 
 const Container = styled.div({
+  display: 'flex',
+  alignItems: 'center',
   width: `${widths.regularPageWidth}px`,
+  flex: 1,
 });
 
 const HomeLink = styled(Link)({
@@ -56,7 +59,6 @@ const HomeLink = styled(Link)({
 
 const HomeButtonContainer = styled.div({
   display: 'flex',
-  flex: 1,
 });
 
 const HomeButton = styled.div({
@@ -89,4 +91,11 @@ const Title = styled.div({
     lineHeight: '0.8em',
     paddingLeft: 2,
   },
+});
+
+const CertificationText = styled.div({
+  marginLeft: 'auto', 
+  fontSize: '1.1em',
+  color: colors.accent, 
+  cursor: 'pointer',
 });
