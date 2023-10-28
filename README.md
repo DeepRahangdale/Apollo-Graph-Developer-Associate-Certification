@@ -2,7 +2,6 @@
 
 Developers who obtain this certification possess a solid foundational knowledge of GraphQL and the Apollo tool suite to design a schema, run an Apollo Server 4, and perform queries with Apollo Client 3 on the frontend.
 
-You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
 
 ## How to use this repo
 
