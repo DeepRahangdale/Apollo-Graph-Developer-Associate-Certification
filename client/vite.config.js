@@ -11,7 +11,7 @@ export default defineConfig(() => ({
     environment: 'happy-dom',
   },
   server: {
-    host: 'https://catstronauts-z786.onrender.com',
+    host: 'https://catstronauts-server-l3c5.onrender.com',
     port: 3000
   },
   esbuild: {
