@@ -1,6 +1,6 @@
-# Odyssey Lift-off IV: Mutations
+# Apollo Graph Developer - Associate Certification
 
-Welcome to the companion app of Odyssey Lift-off IV! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part4), Apollo's learning platform.
+Developers who obtain this certification possess a solid foundational knowledge of GraphQL and the Apollo tool suite to design a schema, run an Apollo Server 4, and perform queries with Apollo Client 3 on the frontend.
 
 You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
 
@@ -30,6 +30,3 @@ In another Terminal window,
 
 This will open up `localhost:3000` in your web browser.
 
-## Getting Help
-
-For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).
